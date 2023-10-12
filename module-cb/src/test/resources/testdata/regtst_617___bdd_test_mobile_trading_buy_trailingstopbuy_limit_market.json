@@ -1,0 +1,104 @@
+{
+   "Trading_Buy_TrailingStopbuy_limit_market":{
+	  "KaufOrder_TrailingStopBuyLimit_Absolut": {
+      "Name_WKN_ISIN": "A1X3X3",
+      "Orderart": "Kaufen",
+      "Handelsplatz": "Tradegate",
+      "Stück": "1,00",
+      "Ordertyp": "Trailing Stop",
+      "StopBuy": "4,00",
+	  "Abstand":"1,00",
+	  "OrderzusatzAbstand":"Absolut",
+	  "ToleranznachStop":"10,00",
+      "Ordergültigkeit": "Bis Ende des Monats",
+      "Message": "Order angenommen",
+	  "Status":"Offen"
+		},
+	  "KaufOrder_löschen_TrailingStopBuyLimit_Absolut": {
+      "Name_WKN_ISIN": "A1X3X3",
+      "Orderart": "Kauf",
+      "Handelsplatz": "Tradegate",
+      "Ordertyp": "Trailing Stop Buy Limit",
+      "Limit": "4,00 EUR",
+	  "Abstand":"1,00 EUR",
+	  "ToleranznachStop":"10,00 EUR",
+	  "NominalStatus":"Gelöscht/Streichung vorgemerkt",
+      "Message": "Orderstreichung angenommen"
+		},
+	  "KaufOrder_TrailingStopBuyLimit_Prozentual": {
+      "Name_WKN_ISIN": "703712",
+      "Orderart": "Kaufen",
+      "Handelsplatz": "Tradegate",
+      "Stück": "1,00",
+      "Ordertyp": "Trailing Stop",
+      "StopBuy": "35,00",
+	  "Abstand":"1,00",
+	  "OrderzusatzAbstand":"Prozentual",
+	  "ToleranznachStop":"10,00",
+      "Ordergültigkeit": "Bis Ende des Monats",
+      "Message": "Order angenommen",
+	  "Status":"Offen"
+		},
+	  "KaufOrder_löschen_TrailingStopBuyLimit_Prozentual": {
+      "Name_WKN_ISIN": "703712",
+      "Orderart": "Kauf",
+      "Handelsplatz": "Tradegate",
+      "Ordertyp": "Trailing Stop Buy Limit",
+      "Limit": "35,00 EUR",
+	  "Abstand":"1,00 %",
+	  "ToleranznachStop":"10,00 EUR",
+	  "NominalStatus":"Gelöscht/Streichung vorgemerkt",
+      "Message": "Orderstreichung angenommen"
+		},
+	  "KaufOrder_TrailingStopBuyMarket_Absolut": {
+      "Name_WKN_ISIN": "555750",
+      "Orderart": "Kaufen",
+      "Handelsplatz": "Tradegate",
+      "Stück": "1,00",
+      "Ordertyp": "Trailing Stop",
+      "StopBuy": "20,00",
+	  "Abstand":"1,00",
+	  "OrderzusatzAbstand":"Absolut",
+	  "ToleranznachStop":"",
+      "Ordergültigkeit": "Bis Ende des Monats",
+      "Message": "Order angenommen",
+	  "Status":"Offen"
+		},
+	  "KaufOrder_löschen_TrailingStopBuyMarket_Absolut": {
+      "Name_WKN_ISIN": "555750",
+      "Orderart": "Kauf",
+      "Handelsplatz": "Tradegate",
+      "Ordertyp": "Trailing Stop Buy Market",
+      "Limit": "20,00 EUR",
+	  "Abstand":"1,00 EUR",
+	  "ToleranznachStop":"-",
+	  "NominalStatus":"Gelöscht/Streichung vorgemerkt",
+      "Message": "Orderstreichung angenommen"
+		},
+	  "KaufOrder_TrailingStopBuyMarket_Prozentual": {
+      "Name_WKN_ISIN": "543900",
+      "Orderart": "Kaufen",
+      "Handelsplatz": "Tradegate",
+      "Stück": "1,00",
+      "Ordertyp": "Trailing Stop",
+      "StopBuy": "75,00",
+	  "Abstand":"1,00",
+	  "OrderzusatzAbstand":"Prozentual",
+	  "ToleranznachStop":"",
+      "Ordergültigkeit": "Bis Ende des Monats",
+      "Message": "Order angenommen",
+	  "Status":"Offen"
+		},
+	  "KaufOrder_löschen_TrailingStopBuyMarket_Prozentual": {
+      "Name_WKN_ISIN": "543900",
+      "Orderart": "Kauf",
+      "Handelsplatz": "Tradegate",
+      "Ordertyp": "Trailing Stop Buy Market",
+      "Limit": "75,00 EUR",
+	  "Abstand":"1,00 %",
+	  "ToleranznachStop":"-",
+	  "NominalStatus":"Gelöscht/Streichung vorgemerkt",
+      "Message": "Orderstreichung angenommen"
+		}
+	}
+}

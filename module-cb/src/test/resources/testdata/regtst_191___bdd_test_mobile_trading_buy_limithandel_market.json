@@ -1,0 +1,164 @@
+{
+   "Trading_Buy_Limithandel_Market":{
+   
+	  "KaufOrder_Limithandel_Aktie": {
+      "Name_WKN_ISIN": "555750",
+      "Orderart": "Kaufen",
+      "Handelsplatz": "Xetra",
+      "Stück": "1,00",
+      "Ordertyp": "Limit",
+      "Limit": "18,00",
+      "Ordergültigkeit": "Bis Ende des Monats",
+      "Message": "Order angenommen",
+	  "Status":"Offen"
+		},
+	  "KaufOrder_ändern_Limithandel_Aktie": {
+      "Name_WKN_ISIN": "555750",
+      "Orderart": "Kauf",
+      "Handelsplatz": "Xetra",
+      "Ordertyp": "Limit",
+      "Limit": "18,00 EUR",
+	  "NewLimit": "19,00",
+      "Message": "Orderänderung angenommen"
+		},
+	  "KaufOrder_löschen_Limithandel_Aktie": {
+      "Name_WKN_ISIN": "555750",
+      "Orderart": "Kauf",
+      "Handelsplatz": "Xetra",
+      "Ordertyp": "Limit",
+      "Limit": "19,00 EUR",
+	  "NominalStatus":"Gelöscht/Streichung vorgemerkt",
+      "Message": "Orderstreichung angenommen"
+		},
+		
+	 "KaufOrder_Limithandel_Anleihe": {
+      "Name_WKN_ISIN": "A13R5E",
+      "Orderart": "Kaufen",
+      "Handelsplatz": "Frankfurt",
+      "Stück": "1000,00",
+      "Ordertyp": "Limit",
+      "Limit": "102,00",
+      "Ordergültigkeit": "Bis Ende des Monats",
+      "Message": "Order angenommen",
+	  "Status":"Offen"
+		},
+	  "KaufOrder_ändern_Limithandel_Anleihe": {
+      "Name_WKN_ISIN": "A13R5E",
+      "Orderart": "Kauf",
+      "Handelsplatz": "Frankfurt",
+      "Ordertyp": "Limit",
+      "Limit": "102,00 %",
+	  "NewLimit": "103,00",
+      "Message": "Orderänderung angenommen"
+		},
+	  "KaufOrder_löschen_Limithandel_Anleihe": {
+      "Name_WKN_ISIN": "A13R5E",
+      "Orderart": "Kauf",
+      "Handelsplatz": "Frankfurt",
+      "Ordertyp": "Limit",
+      "Limit": "103,00 %",
+	  "NominalStatus":"Gelöscht/Streichung vorgemerkt",
+      "Message": "Orderstreichung angenommen"
+		},
+	  
+	  "KaufOrder_Limithandel_Fond": {
+      "Name_WKN_ISIN": "971050",
+      "Orderart": "Kaufen",
+      "Handelsplatz": "Frankfurt",
+      "Stück": "1,00",
+      "Ordertyp": "Limit",
+      "Limit": "58,00",
+      "Ordergültigkeit": "Bis Ende des Monats",
+      "Message": "Order angenommen",
+	  "Status":"Offen"
+		},
+	  "KaufOrder_ändern_Limithandel_Fond": {
+      "Name_WKN_ISIN": "971050",
+      "Orderart": "Kauf",
+      "Handelsplatz": "Frankfurt",
+      "Ordertyp": "Limit",
+      "Limit": "58,00 EUR",
+	  "NewLimit": "59,00",
+      "Message": "Orderänderung angenommen"
+		},
+	  "KaufOrder_löschen_Limithandel_Fond": {
+      "Name_WKN_ISIN": "971050",
+      "Orderart": "Kauf",
+      "Handelsplatz": "Frankfurt",
+      "Ordertyp": "Limit",
+      "Limit": "59,00 EUR",
+	  "NominalStatus":"Gelöscht/Streichung vorgemerkt",
+      "Message": "Orderstreichung angenommen"
+		},
+
+	  "KaufOrder_Limithandel_Zertifikat": {
+      "Name_WKN_ISIN": "VL3TBC",  
+      "Orderart": "Kaufen",
+      "Handelsplatz": "Stuttgart",
+      "Stück": "1,00",
+      "Ordertyp": "Limit",
+      "Limit": "803,00",
+      "Ordergültigkeit": "Bis Ende des Monats",
+      "Message": "Order angenommen",
+	  "Status":"Offen"
+		},
+	  "KaufOrder_ändern_Limithandel_Zertifikat": {
+      "Name_WKN_ISIN": "VL3TBC",
+      "Orderart": "Kauf",
+      "Handelsplatz": "Stuttgart",
+      "Ordertyp": "Limit",
+      "Limit": "803,00 EUR",
+	  "NewLimit": "804,00",
+      "Message": "Orderänderung angenommen"
+		},
+	  "KaufOrder_löschen_Limithandel_Zertifikat": {
+      "Name_WKN_ISIN": "VL3TBC",
+      "Orderart": "Kauf",
+      "Handelsplatz": "Stuttgart",
+      "Ordertyp": "Limit",
+      "Limit": "804,00 EUR",
+	  "NominalStatus":"Gelöscht/Streichung vorgemerkt",
+      "Message": "Orderstreichung angenommen"
+		},
+	  
+	  "KaufOrder_Limithandel_Optionsschein": {
+      "Name_WKN_ISIN": "SR0HCR",
+      "Orderart": "Kaufen",
+      "Handelsplatz": "Stuttgart",
+      "Stück": "1,00",
+      "Ordertyp": "Limit",
+      "Limit": "6,00",
+      "Ordergültigkeit": "Bis Ende des Monats",
+      "Message": "Order angenommen",
+	  "Status":"Offen"
+		},
+	  "KaufOrder_ändern_Limithandel_Optionsschein": {
+      "Name_WKN_ISIN": "SR0HCR",
+      "Orderart": "Kauf",
+      "Handelsplatz": "Stuttgart",
+      "Ordertyp": "Limit",
+      "Limit": "6,00 EUR",
+	  "NewLimit": "7,00",
+      "Message": "Orderänderung angenommen"
+		},
+	  "KaufOrder_löschen_Limithandel_Optionsschein": {
+      "Name_WKN_ISIN": "SR0HCR",
+      "Orderart": "Kauf",
+      "Handelsplatz": "Stuttgart",
+      "Ordertyp": "Limit",
+      "Limit": "7,00 EUR",
+	  "NominalStatus":"Gelöscht/Streichung vorgemerkt",
+      "Message": "Orderstreichung angenommen"
+		},
+	  "KaufOrder_Market": {
+      "Name_WKN_ISIN": "519000",
+      "Orderart": "Kaufen",
+      "Handelsplatz": "Tradegate",
+      "Stück": "1,00",
+      "Ordertyp": "Market",
+      "Ordergültigkeit": "Bis Ende des Tages",
+      "Message": "Order angenommen",
+	  "Status":"Offen/Ausgeführt"
+	   }
+	}
+}

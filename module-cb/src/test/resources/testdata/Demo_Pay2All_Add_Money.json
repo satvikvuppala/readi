@@ -1,0 +1,12 @@
+{
+  "Demo_Pay2All_Add_Money":{
+
+    "Add_Money": {
+      "User_Name": "8899889988",
+      "Password": "12345678",
+      "Amount": "10000",
+      "RefNo": "ICICI00001",
+      "status": "payment request form successfully submited"
+    }
+  }
+}

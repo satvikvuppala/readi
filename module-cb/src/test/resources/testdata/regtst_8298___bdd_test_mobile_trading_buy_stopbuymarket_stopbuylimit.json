@@ -1,0 +1,158 @@
+{
+   "Trading_Buy_Stopbuymarket":{
+	  "KaufOrder_Stopbuymarket_Aktie": {
+      "Name_WKN_ISIN": "CBK100",
+      "Orderart": "Kaufen",
+      "Handelsplatz": "Xetra",
+      "Stück": "1,00",
+      "Ordertyp": "Stop Buy",
+      "Limit": "5,00",
+	  "StopBuy":"Stop Buy Market",
+      "Ordergültigkeit": "So lange wie möglich",
+      "Message": "Order angenommen",
+	  "Status":"Offen"
+		},
+	  "KaufOrder_ändern_Stopbuymarket_Aktie": {
+      "Name_WKN_ISIN": "CBK100",
+      "Orderart": "Kauf",
+      "Handelsplatz": "Xetra",
+      "Ordertyp": "Stop Buy Market",
+      "Limit": "5,00 EUR",
+	  "StopBuy": "6,00",
+      "Message": "Orderänderung angenommen"
+		},
+	  "KaufOrder_löschen_Stopbuymarket_Aktie": {
+      "Name_WKN_ISIN": "CBK100",
+      "Orderart": "Kauf",
+      "Handelsplatz": "Xetra",
+      "Ordertyp": "Stop Buy Market",
+      "StopBuy": "6,00 EUR",
+	  "NominalStatus":"Gelöscht/Streichung vorgemerkt",
+      "Message": "Orderstreichung angenommen"
+		},
+		
+	  "KaufOrder_Stopbuymarket_Anleihe": {
+      "Name_WKN_ISIN": "A1ZKZJ",
+      "Orderart": "Kaufen",
+      "Handelsplatz": "Frankfurt",
+      "Stück": "1000,00",
+      "Ordertyp": "Stop Buy",
+      "Limit": "1.144,00",
+	  "StopBuy":"Stop Buy Market",
+      "Ordergültigkeit": "Bis Ende des Monats",
+      "Message": "Order angenommen",
+	  "Status":"Offen"
+		},
+	  "KaufOrder_ändern_Stopbuymarket_Anleihe": {
+      "Name_WKN_ISIN": "A1ZKZJ",
+      "Orderart": "Kauf",
+      "Handelsplatz": "Frankfurt",
+      "Ordertyp": "Stop Buy Market",
+      "Limit": "1.144,00 %",
+	  "StopBuy": "1.145,00",
+      "Message": "Orderänderung angenommen"
+		},
+	  "KaufOrder_löschen_Stopbuymarket_Anleihe": {
+      "Name_WKN_ISIN": "A1ZKZJ",
+      "Orderart": "Kauf",
+      "Handelsplatz": "Frankfurt",
+      "Ordertyp": "Stop Buy Market",
+      "StopBuy": "1.145,00 %",
+	  "NominalStatus":"Gelöscht/Streichung vorgemerkt",
+      "Message": "Orderstreichung angenommen"
+		},
+	  
+	  "KaufOrder_Stopbuymarket_Fond": {
+      "Name_WKN_ISIN": "984811",
+      "Orderart": "Kaufen",
+      "Handelsplatz": "Frankfurt",
+      "Stück": "1,00",
+      "Ordertyp": "Stop Buy",
+      "Limit": "118,00",
+	  "StopBuy":"Stop Buy Market",
+      "Ordergültigkeit": "Bis Ende des Monats",
+      "Message": "Order angenommen",
+	  "Status":"Offen"
+		},
+	  "KaufOrder_ändern_Stopbuymarket_Fond": {
+      "Name_WKN_ISIN": "984811",
+      "Orderart": "Kauf",
+      "Handelsplatz": "Frankfurt",
+      "Ordertyp": "Stop Buy Market",
+      "Limit": "118,00 EUR",
+	  "StopBuy": "119,00",
+      "Message": "Orderänderung angenommen"
+		},
+	  "KaufOrder_löschen_Stopbuymarket_Fond": {
+      "Name_WKN_ISIN": "984811",
+      "Orderart": "Kauf",
+      "Handelsplatz": "Frankfurt",
+      "Ordertyp": "Stop Buy Market",
+      "StopBuy": "119,00 EUR",
+	  "NominalStatus":"Gelöscht/Streichung vorgemerkt",
+      "Message": "Orderstreichung angenommen"
+		},
+
+	  "KaufOrder_Stopbuymarket_Zertifikat": {
+      "Name_WKN_ISIN": "VL3TBC",
+      "Orderart": "Kaufen",
+      "Handelsplatz": "Frankfurt",
+      "Stück": "1,00",
+      "Ordertyp": "Stop Buy",
+      "Limit": "800,00",
+	  "StopBuy":"Stop Buy Market",
+      "Ordergültigkeit": "Bis Ende des Monats",
+      "Message": "Order angenommen",
+	  "Status":"Offen"
+		},
+	  "KaufOrder_ändern_Stopbuymarket_Zertifikat": {
+      "Name_WKN_ISIN": "VL3TBC",
+      "Orderart": "Kauf",
+      "Handelsplatz": "Frankfurt",
+      "Ordertyp": "Stop Buy Market",
+      "Limit": "800,00 EUR",
+	  "StopBuy": "801,00",
+      "Message": "Orderänderung angenommen"
+		},
+	  "KaufOrder_löschen_Stopbuymarket_Zertifikat": {
+      "Name_WKN_ISIN": "VL3TBC",
+      "Orderart": "Kauf",
+      "Handelsplatz": "Frankfurt",
+      "Ordertyp": "Stop Buy Market",
+      "StopBuy": "801,00 EUR",
+	  "NominalStatus":"Gelöscht/Streichung vorgemerkt",
+      "Message": "Orderstreichung angenommen"
+		},
+		
+	  "KaufOrder_Stopbuymarket_Optionsschein": {
+      "Name_WKN_ISIN": "PP917V",
+      "Orderart": "Kaufen",
+      "Handelsplatz": "Stuttgart",
+      "Stück": "1,00",
+      "Ordertyp": "Stop Buy",
+      "Limit": "1,00",
+	  "StopBuy":"Stop Buy Market",
+      "Ordergültigkeit": "Bis Ende des Monats",
+      "Message": "Order angenommen",
+	  "Status":"Offen"
+		},
+	  "KaufOrder_ändern_Stopbuymarket_Optionsschein": {
+      "Name_WKN_ISIN": "PP917V",
+      "Orderart": "Kauf",
+      "Handelsplatz": "Stuttgart",
+      "Ordertyp": "Stop Buy Market",
+      "Limit": "1,00 EUR",
+	  "StopBuy": "2,00",
+      "Message": "Orderänderung angenommen"
+		},
+	  "KaufOrder_löschen_Stopbuymarket_Optionsschein": {
+      "Name_WKN_ISIN": "PP917V",
+      "Orderart": "Kauf",
+      "Handelsplatz": "Stuttgart",
+      "Ordertyp": "Stop Buy Market",
+      "StopBuy": "2,00 EUR",
+	  "NominalStatus":"Gelöscht/Streichung vorgemerkt",
+      "Message": "Orderstreichung angenommen"
+		}
+	}
+}

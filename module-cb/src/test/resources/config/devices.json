@@ -1,0 +1,88 @@
+{
+  "devices": [
+    {
+      "remoteAddress": "http://127.0.0.1:4723/wd/hub",
+      "udid": "emulator-5554",
+      "deviceName": "emulator-5554",
+      "platformName": "Android",
+      "autoGrantPermissions": "true",
+      "autoAcceptAlerts": "true",
+      "appPackage": "demo.bceres",
+      "appActivity": "demo.bceres.Splash",
+      "browserName": "Android",
+      "version": "10",
+      "automationName": "uiautomator2",
+      "isTablet": "true"
+    },
+    {
+      "remoteAddress": "http://127.0.0.1:4723/wd/hub",
+      "udid": "#emulator-5554",
+      "deviceName": "#emulator-5554",
+      "platformName": "Android",
+      "autoGrantPermissions": "true",
+      "autoAcceptAlerts": "true",
+      "appPackage": "de.consorsbank.test",
+      "appActivity": "de.consorsbank.Consorsbank",
+      "browserName": "Android",
+      "version": "10",
+      "automationName": "uiautomator2",
+      "isTablet": "true"
+    },
+    {
+      "remoteAddress": "http://127.0.0.1:4723/wd/hub",
+      "udid": "WCR7N18B13004362",
+      "deviceName": "WCR7N18B13004362",
+      "platformName": "Android",
+      "appPackage": "de.consorsbank.test",
+      "appActivity": "de.consorsbank.Consorsbank",
+      "browserName": "Android",
+      "version": "8.1.0",
+      "automationName": "uiautomator2",
+      "isTablet": "false"
+    },
+    {
+      "remoteAddress": "http://127.0.0.1:4726/wd/hub",
+      "platformName": "iOS",
+      "platformVersion": "13.6",
+      "deviceName": "00008020-001150DE26A3002E",
+      "udid": "00008020-001150DE26A3002E",
+      "app": "/Users/cs8595/Desktop/Builds/iOS.ipa",
+      "automationName": "XCUITest",
+      "xcodeOrgId": "DE64CMWKZH",
+      "xcodeSigningId": "iPhone Developer",
+      "isTablet": "false",
+      "ignoreUnimportantViews": "true",
+      "includeNonModalElements": "true",
+      "useFirstMatch": "true",
+      "wdaLocalPort": 8008,
+      "snapshotTimeout": 1
+    },
+
+    {
+      "remoteAddress": "http://127.0.0.1:4729/wd/hub",
+      "platformName": "iOS",
+      "platformVersion": "13.3.1",
+      "deviceName": "fd0570bb3b71f0bb9f1792cf57518d680597c243",
+      "udid": "fd0570bb3b71f0bb9f1792cf57518d680597c243",
+      "app": "/Users/consorsbank/Desktop/Builds/iOS.ipa",
+      "automationName": "XCUITest",
+      "xcodeOrgId": "DE64CMWKZH",
+      "xcodeSigningId": "iPhone Developer",
+      "wdaLocalPort": 8007,
+      "useNewWDA": true
+    },
+
+    {
+      "remoteAddress": "http://127.0.0.1:4723/wd/hub",
+      "platformName": "iOS",
+      "platformVersion": "13.5",
+      "deviceName": "iPhone 11 Pro",
+      "automationName": "XCUITest",
+      "app": "/Users/cs8595/Downloads/Consorsbank Test.app",
+      "fullReset": false,
+      "noReset": true,
+      "wdaLocalPort": 8003,
+      "isTablet": "false"
+    }
+  ]
+}

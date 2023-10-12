@@ -1,0 +1,78 @@
+pipeline {
+    agent {
+        node {
+            label 'master'
+        }
+    }
+    parameters {
+        string(name:'DeviceName',defaultValue:'',description: 'Connected device name for test execution. Eg:fd0570bb3b71f0bb9f1792cf57518d680597c243')
+            }
+    options {
+        disableConcurrentBuilds()
+        buildDiscarder(logRotator(numToKeepStr: '5', artifactNumToKeepStr: '0'))
+    }
+
+
+stages {
+/**
+ * Exporting the tests from Jira to Jenkins
+ */
+        stage('Build Tests'){
+        steps{
+                catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE'){
+
+                    sh "chmod -R 755 *"
+                    sh "./gradlew -xtest clean build"
+                    }
+                    echo "echo after build tests"
+            }
+        }
+/**
+ * Exporting the tests from Jira to Jenkins
+ */
+        stage('Export Jira Tests'){
+            steps{
+                catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE'){
+                dir('module-cb'){
+                    sh "chmod -R 755 *"
+
+                    sh 'java -cp build/libs/module-cb-1.0-SNAPSHOT-tests.jar com.bnpp.appium.xray.ExportTests'
+                    }
+                    echo "echo after exporttests"
+                }
+
+            }
+        }
+
+/**
+
+ * Here the tests get executed
+*/
+stage('Test Execution') {
+            steps {
+                script {
+                    catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
+                    dir('module-cb'){
+                     sh "chmod -R 755 *"
+                     sh "java -Ddevicename=${DeviceName} -cp build/libs/module-cb-1.0-SNAPSHOT-tests.jar  org.junit.runner.JUnitCore com.bnpp.appium.cucumber.CucumberTest"
+
+                     echo "Test automation completed successfully."
+                    }
+
+                    }
+                }
+            }
+        }
+
+/**
+ * Here the automation test report will be published in Jenkins (HTML format)
+ */
+stage('Publish Reports'){
+     steps{
+           catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE'){
+           publishHTML([allowMissing: false, alwaysLinkToLastBuild: true, keepAll: true, reportDir: 'module-cb/Reports/BNP_', reportFiles: 'OverviewDetailedReport_BNP_-.html', reportName: 'Regression Pack Test Report', reportTitles: ''])
+            }
+          }
+        }
+    }
+}

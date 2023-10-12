@@ -1,0 +1,34 @@
+//plugins {
+//    id 'java'
+//}
+//
+//apply plugin: 'application'
+//group 'com.consorsbank.test.core'
+//version '1.0-SNAPSHOT'
+//
+//sourceCompatibility = 1.8
+//
+//repositories {
+//    //mavenCentral()
+//    maven {
+////        url = 'https://eurcs.dev.dc-nbg.local/nexus/content/repositories/GradlePlugins/'
+//        url = 'http://10.204.131.82:8080/repository/mobile-repos/'
+//        credentials {
+//            username "DE-TEC-SSH-Jenkins"
+//            password "Hfd!adGs.13"
+//        }
+//
+//    }
+//}
+//
+//dependencies {
+//    compile fileTree(dir: 'libs', include: ['*.jar'])
+//    compile group: 'log4j', name: 'log4j', version: '1.2.17'
+//    implementation 'io.appium:java-client:7.3.0'
+//    compile 'io.cucumber:cucumber-java:5.5.0'
+//    compile 'org.codehaus.jackson:jackson-mapper-asl:1.9.12'
+//    compile 'org.hamcrest:hamcrest-junit:2.0.0.0'
+//    compile 'org.hamcrest:java-hamcrest:2.0.0.0'
+//}
+//
+//mainClassName = "com.consorsbank.test.core.report.OverviewReport"
